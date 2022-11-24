@@ -1,0 +1,270 @@
+@font-face {
+    font-family: Caver Pitalsal;
+    src: url("../assets/fonts/Caver\ Pitalsal.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* media mobile 0-500px */
+
+.color{
+    background-color: #02291F;
+}
+
+.logo{
+    width: 120px;
+    height: 100px;
+}
+body{
+    background-image: url("../assets/img/fondodefi.jpg");  
+    background-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Caver Pitalsal;
+    color: white;
+
+}
+
+footer{
+    background-color: #02291F;
+}
+
+.beberMod{
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Caver Pitalsal;
+    color: white; 
+}
+
+.intro1{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Caver Pitalsal;
+    text-align: center;
+}
+.horario{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: Caver Pitalsal;
+    text-align: center;
+}
+.dirección{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Caver Pitalsal;
+    color: white;
+    text-decoration: overline;
+}
+
+
+.nuestraNov{
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Caver Pitalsal;
+    color: white;
+
+}
+
+.redes{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imagRedes{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.fContacto, .textArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formularioContacto{
+    font-family: Caver Pitalsal;
+    font-size: 25px;
+    color: white;
+}
+
+.nombreApellido, .nombreApellido1, .nombreApellido2{
+    margin: 5px;
+}
+
+.celular1{
+    margin: 25px;
+}
+
+.celular2{
+    margin-left: 45px;
+}
+
+.horario1, .horario2{
+    margin: 15px 30px 30px 30px;
+}
+
+p{
+    margin: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.logoCompañia, .amberLager{
+    display: none;
+}
+
+.saberMás{
+    color: rgb(29, 170, 226);
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+.productos{
+    text-decoration: underline;
+
+}
+
+.imgProd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+@media(min-width:500px){
+    header{
+        grid-area: header;
+    }
+
+    .carousel{
+        grid-area: carousel;
+    }
+
+    .intro{
+        grid-area: intro;
+    }
+
+    footer{
+        grid-area: footer;
+    }
+
+    body{
+        display: grid;
+        grid-template-areas: 
+        "header     header"
+        "carousel   carousel"
+        "intro      intro"
+        "footer     footer";
+        grid-template-columns: 1fr;
+
+    }
+
+    .mapUbi{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+
+    .imgProd{
+        flex-direction: row;
+        margin: 30px;
+    }
+
+    .descripcion{
+        flex-direction: row;
+        text-align: center;
+        color: white;
+    }   
+}
+
+@media(min-width:810px){
+    body{
+        grid-template-areas: 
+        "header"
+        "carousel"
+        "intro"
+        "footer";
+          
+    }
+
+    .intro1, .dirección{
+        font-size: 40px;
+
+    }
+
+    .horario{
+        font-size: 30px;
+    }
+
+    h1, h2, h3, h4, h5, h6{
+        font-size: 40px;
+    }
+
+    .mapUbi{
+        padding: 20px 50px 50px 50px;
+        border: 30px;
+    }
+
+    .imagRedes{
+        margin-right: 90px;
+        margin-left: 90px;
+    }
+
+    .historia{
+        display: flex;
+        text-align: justify;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .amberLager{
+        display: block;
+        padding: 80px 20px 20px 20px;
+    }
+    .logoCompañia{
+        display: block;
+        padding: 50px 0px 20px 20px;
+    }
+
+    .infoCompañia1{
+        display: flex;
+        text-align: justify;
+    }     
+
+    .infoCompañia{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .saberMás{
+        font-size: 30px;
+    }
+
+}
