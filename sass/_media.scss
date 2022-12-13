@@ -1,0 +1,138 @@
+/*index*/
+.intro1 {
+    color: white;
+    font-size: $size;
+    text-decoration: none;
+    font-family: Caver Pitalsal;
+    text-align: center;
+    @media(min-width:810px){
+        font-size: 40px;
+    } 
+}
+
+.ubiGoogle{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Caver Pitalsal;
+    color: white;
+    text-decoration: none;
+    @media(min-width:810px){
+    font-size: 40px;
+    }
+}
+
+.dirección{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Caver Pitalsal;
+    color: white;
+    text-decoration: overline;
+    @media(min-width:810px){
+    font-size: 40px;
+    }
+}
+.mapUbi{
+    @include sizes(300px,300px);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: auto;
+    @media(min-width:500px){
+    width: 500px;
+    height: 350px;
+    }
+    @media(min-width:810px){
+    padding: 20px 50px 50px 50px;
+    border: 30px;
+    width: 800px;
+    height: 600px;
+    margin: auto;    
+    }
+}
+
+.newBeer{
+    @include sizes(300px,400px);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    @media(min-width:810px){
+    width: 700px;
+    height: 750px;
+    margin: auto;       
+    }
+}
+
+.imgHorarios{
+    @include sizes(300px,400px);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    @media(min-width:810px){
+    width: 700px;
+    height: 750px;
+    margin: auto;       
+    }
+}
+
+/*historia*/
+
+.logoCompañia{
+    display: none;
+    @media(min-width:810px){
+    display: block;
+    padding: 50px 0px 20px 20px;    
+    }
+}
+
+.amberLager{
+    display: none;
+    @media(min-width:810px){
+    display: block;
+    padding: 80px 20px 20px 20px;        
+    }
+}
+
+.saberMás{
+    color: rgb(29, 170, 226);
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    @media(min-width:810px){
+    font-size: 33px;
+    }
+} 
+
+/*productos*/
+
+.productos {
+    text-align: start;
+    padding: 30px;
+    margin: 5px;
+    text-decoration: underline;
+    @media(min-width:500px){
+    text-align: center;    
+    }
+}
+
+/*imagfooter*/
+
+.imagRedes {
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    @media(min-width:810px){
+    margin-right: 90px;
+    margin-left: 90px;
+    }
+  }
+  
+

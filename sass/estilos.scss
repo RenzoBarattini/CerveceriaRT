@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import "variableGlobal";
+@import "fuentes";
+@import "generales";
+@import "titulos";
+@import "operaciones";
+@import "media";
+
+/* media mobile 0-500px */ 
+
+.reservas {
+  font-size: 70px;
+}
+
+.mb-3 {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+.enviar {
+  margin: 30px;
+}
+
+.accordionHeader {
+  margin: 0;
+}
+
+.accordionTit {
+  font-size: 30px;
+}
+
+.row {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 20%;
+  padding: 5px;
+}
+
+.imgProdc {
+  padding: 10px;
+  width: 250px;
+}
+
+.col{
+  margin-top: 5px;
+}
+
+@media (min-width: 810px) {
+ 
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 40px;
+  }
+  
+  .historiaTit {
+    margin-bottom: 5px;
+    font-size: 70px;
+  }
+
+  .historia{
+    display: flex;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    padding: 20px;
+  }
+  
+  .infoCompañia1 {
+    display: flex;
+    text-align: justify;
+  }
+  .infoCompañia {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+  }
+
+}

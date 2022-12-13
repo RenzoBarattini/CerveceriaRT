@@ -1,0 +1,316 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: Caver Pitalsal;
+  src: url("../assets/fonts/Caver Pitalsal.ttf");
+}
+.color {
+  background-color: #02291F;
+}
+
+.logo {
+  width: 120px;
+  height: 100px;
+}
+
+body {
+  background-image: url("../assets/img/fondodefi.jpg");
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #02291F;
+  padding: 5px;
+}
+
+.beberMod {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Caver Pitalsal;
+  color: white;
+}
+
+.nuestraNov {
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Caver Pitalsal;
+  color: white;
+}
+
+.redes {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Caver Pitalsal;
+  color: white;
+}
+
+p {
+  margin: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.mapUbi {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.imgHorarios {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+/*index*/
+.intro1 {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Caver Pitalsal;
+  text-align: center;
+}
+@media (min-width: 810px) {
+  .intro1 {
+    font-size: 40px;
+  }
+}
+
+.ubiGoogle {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  text-align: center;
+  font-family: Caver Pitalsal;
+  color: white;
+  text-decoration: none;
+}
+@media (min-width: 810px) {
+  .ubiGoogle {
+    font-size: 40px;
+  }
+}
+
+.dirección {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  text-align: center;
+  font-family: Caver Pitalsal;
+  color: white;
+  text-decoration: overline;
+}
+@media (min-width: 810px) {
+  .dirección {
+    font-size: 40px;
+  }
+}
+
+.mapUbi {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+}
+@media (min-width: 500px) {
+  .mapUbi {
+    width: 500px;
+    height: 350px;
+  }
+}
+@media (min-width: 810px) {
+  .mapUbi {
+    padding: 20px 50px 50px 50px;
+    border: 30px;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+  }
+}
+
+.newBeer {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-evenly;
+}
+@media (min-width: 810px) {
+  .newBeer {
+    width: 700px;
+    height: 750px;
+    margin: auto;
+  }
+}
+
+.imgHorarios {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-evenly;
+}
+@media (min-width: 810px) {
+  .imgHorarios {
+    width: 700px;
+    height: 750px;
+    margin: auto;
+  }
+}
+
+/*historia*/
+.logoCompañia {
+  display: none;
+}
+@media (min-width: 810px) {
+  .logoCompañia {
+    display: block;
+    padding: 50px 0px 20px 20px;
+  }
+}
+
+.amberLager {
+  display: none;
+}
+@media (min-width: 810px) {
+  .amberLager {
+    display: block;
+    padding: 80px 20px 20px 20px;
+  }
+}
+
+.saberMás {
+  color: rgb(29, 170, 226);
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
+@media (min-width: 810px) {
+  .saberMás {
+    font-size: 33px;
+  }
+}
+
+/*productos*/
+.productos {
+  text-align: start;
+  padding: 30px;
+  margin: 5px;
+  text-decoration: underline;
+}
+@media (min-width: 500px) {
+  .productos {
+    text-align: center;
+  }
+}
+
+/*imagfooter*/
+.imagRedes {
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+@media (min-width: 810px) {
+  .imagRedes {
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+}
+
+/* media mobile 0-500px */
+.reservas {
+  font-size: 70px;
+}
+
+.mb-3 {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+.enviar {
+  margin: 30px;
+}
+
+.accordionHeader {
+  margin: 0;
+}
+
+.accordionTit {
+  font-size: 30px;
+}
+
+.row {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 20%;
+  padding: 5px;
+}
+
+.imgProdc {
+  padding: 10px;
+  width: 250px;
+}
+
+.col {
+  margin-top: 5px;
+}
+
+@media (min-width: 810px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 40px;
+  }
+  .historiaTit {
+    margin-bottom: 5px;
+    font-size: 70px;
+  }
+  .historia {
+    display: flex;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    padding: 20px;
+  }
+  .infoCompañia1 {
+    display: flex;
+    text-align: justify;
+  }
+  .infoCompañia {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+  }
+}/*# sourceMappingURL=estilos.css.map */

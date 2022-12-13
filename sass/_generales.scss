@@ -1,0 +1,44 @@
+.color {
+    background-color: $color;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 100px;
+  }
+  
+  body {
+    background-image: url("../assets/img/fondodefi.jpg");
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    background-color: $color;
+    padding: 5px;
+  }
+  
+  .beberMod {
+    margin-top: 30px;
+    font-size: $size;
+    text-align: center;
+    font-family: $font;
+    color: white;
+  }
+  
+  .nuestraNov {
+      margin: 20px;
+      font-size: 30px;
+      text-align: center;
+      font-family: $font;
+      color: white;
+  }
+    
+  .redes {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+    

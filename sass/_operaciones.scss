@@ -1,0 +1,21 @@
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.mapUbi{
+    @include sizes(300px,300px);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+
+.imgHorarios{
+    @include sizes(300px,400px);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+}
