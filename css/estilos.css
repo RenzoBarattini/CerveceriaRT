@@ -87,7 +87,7 @@ p {
   font-size: 20px;
   text-decoration: none;
   font-family: Caver Pitalsal;
-  text-align: center;
+  text-align: justify;
 }
 @media (min-width: 810px) {
   .intro1 {
@@ -198,7 +198,8 @@ p {
 @media (min-width: 810px) {
   .amberLager {
     display: block;
-    padding: 80px 20px 20px 20px;
+    padding: 10px 10px 70px 10px;
+    text-align: center;
   }
 }
 

@@ -4,7 +4,7 @@
     font-size: $size;
     text-decoration: none;
     font-family: Caver Pitalsal;
-    text-align: center;
+    text-align: justify;
     @media(min-width:810px){
         font-size: 40px;
     } 
@@ -93,8 +93,9 @@
 .amberLager{
     display: none;
     @media(min-width:810px){
-    display: block;
-    padding: 80px 20px 20px 20px;        
+    display: block; 
+    padding: 10px 10px 70px 10px;
+    text-align: center;     
     }
 }
 
